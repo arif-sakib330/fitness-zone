@@ -1,0 +1,30 @@
+body {
+  margin: 0px 100px;
+  background-color: rgb(30, 27, 27);
+}
+.pri-btn {
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin: 0px 10px;
+}
+.sec-btn {
+  background-color: #e6533c;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+/* Navbar */
+header h1 {
+  color: #e6533c;
+}
+
+header div {
+  display: flex;
+  justify-content: space-between;
+}
+header div ul {
+  display: flex;
+  list-style: none;
+}
+
+/* banner */
