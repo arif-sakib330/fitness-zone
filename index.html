@@ -7,28 +7,367 @@
     <title>Fitness Zone</title>
   </head>
   <body>
-    <!-- Navbar -->
     <header>
+      <!-- Navbar -->
       <div>
         <div>
-          <h1>Fitness Zone</h1>
+          <h1 class="web-name">Fitness Zone</h1>
         </div>
         <div>
-          <ul>
+          <ul class="btn-container">
             <li><button class="sec-btn">Home</button></li>
             <li><button class="pri-btn">Service</button></li>
             <li><button class="pri-btn">Contact</button></li>
-            <li><button class="pri-btn">About</button></li>
+            <li><button class="pri-btn btn-abut">About</button></li>
           </ul>
+        </div>
+        <div class="btn-hide">
+          <img src="images/align-justify.png" alt="" />
         </div>
       </div>
     </header>
     <main>
       <!-- banner -->
-      <div></div>
+      <div class="banner-container">
+        <div>
+          <h1 class="get-body">
+            Get body in <br />
+            <span class="arizonia">shape</span> & stay <br />
+            healthy
+          </h1>
+          <p class="sec-text">
+            A huge selection of health and fitness content, healthy recipes
+            <br />
+            and transformation stories to help you get fit and stay fit!
+          </p>
+          <div class="button">
+            <button class="sec-btn">Join Club Now!</button>
+            <button class="pri-btn">Download App</button>
+          </div>
+        </div>
+        <div>
+          <img class="img-2" src="images/banner img.png" alt="" />
+
+          <div class="card-1">
+            <h3>3500+</h3>
+            <p class="sec-text">Video tutorial</p>
+          </div>
+
+          <div class="card-2">
+            <h3>500+</h3>
+            <p class="sec-text">Free Workout Videos</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- workout -->
+
+      <!-- Change Your Habits -->
+      <div class="habit-container">
+        <div class="title-section">
+          <p class="title-font">Change Your Habits</p>
+          <p class="sec-text">
+            Transform your daily routine to achieve your goals. <br />
+            Embrace positive changes for a healthier, happier life
+          </p>
+        </div>
+        <div class="card-container">
+          <div>
+            <img src="images/image 3.png" alt="" />
+            <h3>Movement</h3>
+            <p class="sec-text">
+              Experience the energy of our dynamic workouts.
+            </p>
+          </div>
+          <div>
+            <img src="images/image 2.png" alt="" />
+            <h4>Time</h4>
+            <p class="sec-text">
+              Time is your most valuable resource in fitness.
+            </p>
+          </div>
+          <div>
+            <img src="images/image 4.png" alt="" />
+            <h3>Practice</h3>
+            <p class="sec-text">
+              Consistency is key to mastering your fitness journey.
+            </p>
+          </div>
+          <div>
+            <img src="images/image 5.png" alt="" />
+            <h3>weight Loss</h3>
+            <p class="sec-text">
+              Achieving your goals starts with a balanced approach..
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Run an Extra Mile Easily-->
+      <div class="run-container">
+        <div class="run">
+          <h1>
+            Run an Extra <br />
+            Mile Easily
+          </h1>
+          <p class="sec-text">
+            Push your limits with every step you take. Experience the joy of
+            running while building endurance.
+          </p>
+          <button class="sec-btn join-btn">Join Now</button>
+        </div>
+        <div>
+          <img src="images/run.jpg" alt="" />
+        </div>
+      </div>
+
+      <!-- BMI -->
+      <div class="bmi-container">
+        <div class="title-section">
+          <h3 class="title-font">BMI Calculator</h3>
+          <p class="sec-text">
+            Easily assess your body weight relative to your height. <br />
+            Understand your health status and set fitness goals.
+          </p>
+        </div>
+
+        <div class="bmi-table">
+          <!-- table -->
+
+          <table class="table sec-text" border="1">
+            <caption class="title-section">
+              <strong>BMI Calculator Chart</strong>
+            </caption>
+            <tr>
+              <th>BMI</th>
+              <th>Weight Status</th>
+            </tr>
+            <tr>
+              <td>Below 18.5</td>
+              <td>Underweight</td>
+            </tr>
+            <tr>
+              <td>18.5 - 24.9</td>
+              <td>Healthy</td>
+            </tr>
+            <tr>
+              <td>25.0 - 29.9</td>
+              <td>Overweight</td>
+            </tr>
+            <tr>
+              <td>30.0 and Above</td>
+              <td>Obese</td>
+            </tr>
+          </table>
+
+          <!-- form -->
+          <form>
+            <h3>Calculate your BMI</h3>
+            <p class="sec-text">
+              Track your progress and make informed lifestyle changes. <br />
+              Take the first step towards a healthier you today!
+            </p>
+
+            <div>
+              <input
+                class="box"
+                type="number"
+                placeholder="Height (cm)"
+                required
+              />
+              <input
+                class="box"
+                type="number"
+                placeholder="Weight (kg)"
+                required
+              />
+            </div>
+            <br />
+
+            <div>
+              <input class="box" type="number" placeholder="Age" required />
+              <select required class="box sec-text">
+                <option value="" disabled selected hidden>
+                  Select your sex
+                </option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+              </select>
+            </div>
+            <br />
+
+            <select required class="box sec-text">
+              <option disabled selected hidden>
+                Select an activity factor
+              </option>
+            </select>
+            <br /><br />
+
+            <button class="sec-btn btn-abut" type="submit">
+              Calculate BMI
+            </button>
+          </form>
+        </div>
+      </div>
+
+      <!-- Meet Our Team -->
+      <div class="meet-container">
+        <div class="title-section">
+          <h3 class="title-font">Meet Our Team</h3>
+          <p>
+            Get to know the passionate professionals behind your fitness
+            journey. <br />
+            Our experts are dedicated to supporting your health and wellness
+            goals.
+          </p>
+        </div>
+        <div class="trainer">
+          <div class="trainer-card">
+            <img src="images/1.png" alt="" />
+            <div class="trainer-name">
+              <h4>Jerome Bell</h4>
+              <p class="sec-text">Trainer</p>
+            </div>
+          </div>
+          <div class="trainer-card">
+            <img src="images/2.png" alt="" />
+            <div class="trainer-name">
+              <h4>Cameron Williamson</h4>
+              <p class="sec-text">Trainer</p>
+            </div>
+          </div>
+          <div class="trainer-card">
+            <img src="images/3.png" alt="" />
+            <div class="trainer-name">
+              <h4>Darrell Steward</h4>
+              <p class="sec-text">Trainer</p>
+            </div>
+          </div>
+          <div class="trainer-card">
+            <img src="images/4.png" alt="" />
+            <div class="trainer-name">
+              <h4>Dianne Russell</h4>
+              <p class="sec-text">Trainer</p>
+            </div>
+          </div>
+          <div class="trainer-card">
+            <img src="images/5.png" alt="" />
+            <div class="trainer-name">
+              <h4>Cody Fisher</h4>
+              <p class="sec-text">Trainer</p>
+            </div>
+          </div>
+          <div class="trainer-card">
+            <img src="images/6.png" alt="" />
+            <div class="trainer-name">
+              <h4>Theresa Webb</h4>
+              <p class="sec-text">Trainer</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- membership -->
+      <div class="join-container">
+        <div class="title-section">
+          <h3 class="title-font">
+            Join Our Fitness <br />
+            Gym Center
+          </h3>
+          <p>
+            Become part of a vibrant community focused on health and wellness.
+            <br />
+            Unlock your potential with expert guidance and support.
+          </p>
+        </div>
+
+        <form>
+          <div>
+            <input
+              class="box"
+              type="text"
+              placeholder="Enter your full name"
+              required
+            /><br /><br />
+
+            <input
+              class="box"
+              type="email"
+              placeholder="Enter your email"
+              required
+            /><br /><br />
+
+            <input
+              class="box"
+              type="tel"
+              placeholder="Enter your phone number"
+              required
+            /><br /><br />
+
+            <select class="box" id="membership" name="membership" required>
+              <option value="" disabled selected hidden>Select a plan</option>
+              <option value="basic">Basic (1 month)</option>
+              <option value="standard">Standard (3 months)</option>
+              <option value="premium">Premium (6 months)</option>
+              <option value="annual">Annual (12 months)</option></select
+            ><br /><br />
+
+            <select class="box" required>
+              <option value="" disabled selected hidden>
+                Select a payment method
+              </option>
+              <option value="credit-card">Credit Card</option>
+              <option value="debit-card">Debit Card</option>
+              <option value="paypal">PayPal</option></select
+            ><br />
+
+            <br /><br />
+            <button class="sec-btn btn-abut" type="submit">Join Now</button>
+          </div>
+        </form>
+      </div>
     </main>
+    <!-- footer -->
     <footer>
-      <div></div>
+      <div class="footer">
+        <div class="footer-container">
+          <div>
+            <h1 class="web-name">Fitness Zone</h1>
+            <p class="sec-text">
+              We believe fitness should be accessible to everyone, everywhere,
+              <br />
+              regardless of income or access to a gym. With hundreds of <br />
+              professional workouts.
+            </p>
+          </div>
+          <div class="get-start">
+            <h3 class="white">Get Started</h3>
+            <ul>
+              <li>
+                <a class="sec-text" href="">Service </a>
+                <a href="">Contact Us</a>
+                <a href="">Affiliate Program </a>
+                <a href="">About Us</a>
+              </li>
+            </ul>
+          </div>
+          <div class="get-start">
+            <h3 class="white">Get Started</h3>
+            <ul>
+              <li>
+                <a class="sec-text" href="">Fitness </a>
+                <a href="">Platform </a>
+                <a href="">Workout Libary</a>
+                <a href="">App Design</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <div class="reserved">
+        <p class="sec-text">All right reserved @Fitness 2024</p>
+      </div>
     </footer>
   </body>
 </html>
